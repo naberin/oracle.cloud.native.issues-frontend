@@ -273,6 +273,9 @@ dashboard
 *****************************************/
 .page#dashboard .app-listing {
     padding: 9px 19px 9px 9px;
+}
+
+.page#dashboard .app-listing.projects {
     border-right: 1px solid #ccc;
     min-width: 256px;
     max-width: 400px;
