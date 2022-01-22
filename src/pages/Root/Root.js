@@ -5,7 +5,7 @@ import Dashboard from "../Dashboard";
 
 function Root() {
   return (
-    <main id="app-root" data-testid="app-root">
+    <main id="app-root" data-testid="app-root" className="flex flex-col">
             <AppHeader title="Issue Tracker"/>
 
             <Routes>

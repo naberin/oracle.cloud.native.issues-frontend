@@ -222,12 +222,17 @@ Top-level component styling
     font-family: 'Roboto', sans-serif;
 }
 
+div#root,
+main#app-root {
+    height: 100%;
+    width: 100%;
+}
+
 .app-header + .page {
-    margin-top: 28px;
+    margin: 28px 0;
 }
 
 .page .app-section {
-    padding: 9px;
 
     background-color: #fff;
 
@@ -251,6 +256,8 @@ coloring
     background-color: #98d75a;
 }
 
+
+
 /****************************************
 listings
 *****************************************/
@@ -262,12 +269,24 @@ listings
 }
 
 /****************************************
+dashboard
+*****************************************/
+.page#dashboard .app-listing {
+    padding: 9px 19px 9px 9px;
+    border-right: 1px solid #ccc;
+    min-width: 256px;
+    max-width: 400px;
+}
+
+/****************************************
 projects
 *****************************************/
 .app-listing.projects .listing .link {
     padding: 4px 0;
+    width: max-content;
 }
 .app-listing.projects .listing .link .title {
+    overflow-wrap: anywhere;
     margin-left: 5px;
 }
 .app-listing.projects .listing .link:hover {
