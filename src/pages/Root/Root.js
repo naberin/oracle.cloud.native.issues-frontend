@@ -2,7 +2,7 @@ import './Root.css';
 
 function Root() {
   return (
-    <main id="root" data-testid="root">
+    <main id="app-root" data-testid="app-root">
     </main>
   );
 }
