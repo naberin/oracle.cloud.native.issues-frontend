@@ -220,3 +220,7 @@ textarea:focus {
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.app-header + .page {
+    margin-top: 28px;
+}

@@ -1,6 +1,7 @@
 .app-header {
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 9px 9px 9px;
+    background-color: #000;
+    color: #fff;
 }
 
 .app-header .app-details .title {
