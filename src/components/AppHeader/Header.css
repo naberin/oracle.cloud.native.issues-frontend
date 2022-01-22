@@ -1,0 +1,9 @@
+.app-header {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.app-header .app-details .title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
