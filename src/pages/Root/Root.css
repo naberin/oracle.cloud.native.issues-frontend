@@ -216,6 +216,7 @@ textarea:focus {
 }
 
 /****************************************
+Top-level component styling
 *****************************************/
 * {
     font-family: 'Roboto', sans-serif;
@@ -223,4 +224,53 @@ textarea:focus {
 
 .app-header + .page {
     margin-top: 28px;
+}
+
+.page .app-section {
+    padding: 9px;
+
+    background-color: #fff;
+
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+.square {
+    height: 19px;
+    width: 19px;
+    border-radius: 4px;
+}
+
+/****************************************
+coloring
+*****************************************/
+.square.color-unknown {
+    background-color: #ccc;
+}
+.square.color-active {
+    background-color: #98d75a;
+}
+
+/****************************************
+listings
+*****************************************/
+.app-listing > .title {
+    font-weight: bolder;
+}
+.app-listing .listing {
+    margin-top: 9px;
+}
+
+/****************************************
+projects
+*****************************************/
+.app-listing.projects .listing .link {
+    padding: 4px 0;
+}
+.app-listing.projects .listing .link .title {
+    margin-left: 5px;
+}
+.app-listing.projects .listing .link:hover {
+    text-decoration: underline;
+
 }

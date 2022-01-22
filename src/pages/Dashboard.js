@@ -12,12 +12,15 @@ class Component extends React.Component {
 
     render() {
         return (
-            <section className="page flex flex-row">
-                <MinifiedProjectListing
-                    className="flex-grow-3"
-                    listing={this.state.projectListing}
-                />
+            <section className="page">
+                <div className="app-section container flex flex-row">
 
+                    <MinifiedProjectListing
+                        className="flex-grow-3"
+                        listing={this.state.projectListing}
+                    />
+
+                </div>
             </section>
         )
     }
