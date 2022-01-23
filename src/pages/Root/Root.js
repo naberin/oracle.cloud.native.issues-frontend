@@ -1,7 +1,10 @@
-import './Root.css';
-import AppHeader from "../../components/AppHeader/Header";
 import {Route, Routes} from "react-router-dom";
+
+import './Root.css';
+
+import AppHeader from "../../components/AppHeader/Header";
 import Dashboard from "../Dashboard";
+import Projects from "../Projects/All";
 
 function Root() {
   return (
@@ -10,6 +13,7 @@ function Root() {
 
             <Routes>
                 <Route path="/" element={<Dashboard/>} />
+                <Route path="/projects" element={<Projects/>} />
             </Routes>
     </main>
   );

@@ -246,6 +246,10 @@ main#app-root {
     border-radius: 4px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 /****************************************
 coloring
 *****************************************/
@@ -261,8 +265,9 @@ coloring
 /****************************************
 listings
 *****************************************/
-.app-listing > .title {
+.app-listing .header .title {
     font-weight: bolder;
+    font-size: 1.15em;
 }
 .app-listing .listing {
     margin-top: 9px;
@@ -272,7 +277,7 @@ listings
 dashboard
 *****************************************/
 .page#dashboard .app-listing {
-    padding: 9px 19px 9px 9px;
+    padding: 9px;
 }
 
 .page#dashboard .app-listing.projects {
@@ -291,8 +296,4 @@ projects
 .app-listing.projects .listing .link .title {
     overflow-wrap: anywhere;
     margin-left: 5px;
-}
-.app-listing.projects .listing .link:hover {
-    text-decoration: underline;
-
 }
