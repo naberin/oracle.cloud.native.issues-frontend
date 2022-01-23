@@ -17,16 +17,6 @@ const component = function(props) {
                     </Link>
                 </div>
                 <div className="flex flex-row flex-justify-end">
-                    <div className="field">
-                        <input type="text" className="search app-input"/>
-                        <i className={"fas fa-search"}/>
-                    </div>
-
-                    <button className="app-button creation">
-                        <div className="button-bg">
-                            New Issue
-                        </div>
-                    </button>
                 </div>
 
             </div>

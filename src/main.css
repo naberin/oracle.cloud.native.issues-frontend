@@ -82,22 +82,3 @@ Project Header
 .info-header .link {
     padding: 9px 0;
 }
-
-.info-header .field {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-}
-.info-header .field i {
-    padding: 9px 4px;
-}
-.info-header .field input {
-    border: none;
-    background-color: inherit;
-    height: 100%;
-    padding: 9px;
-
-}
-
-.info-header .field + .app-button {
-    margin-left: 9px;
-}
