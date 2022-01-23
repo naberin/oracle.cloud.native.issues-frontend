@@ -3,6 +3,7 @@
 }
 .link:hover {
     text-decoration: underline;
+    text-decoration-color: #0feaea;
 }
 
 #main {
@@ -12,12 +13,13 @@
 /*************************************
 buttons
 **************************************/
-button.app-button {
+.app-button {
     border: none;
     border-radius: 9px;
     padding: 0;
 }
-button.app-button .button-bg {
+.app-button .button-bg {
+    text-align: center;
     background-color: rgba(29, 29, 29, .5);
     height: 100%;
     width: 100%;
@@ -25,11 +27,11 @@ button.app-button .button-bg {
     border-radius: inherit;
     transition: background-color .5s;
 }
-button.app-button .button-bg:hover {
+.app-button .button-bg:hover {
     background-color: rgba(29, 29, 29, .2);
 }
 
-button.app-button.creation {
+.app-button.creation {
     background: linear-gradient(to bottom right, #08a451, #005fad);
     color: #eee;
 }
@@ -62,6 +64,7 @@ Project Header
 **************************************/
 .info-header {
     padding: 14px 9px;
+    background: linear-gradient(to bottom right, #04717e, #56601c);
 }
 
 .info-header i,
@@ -70,11 +73,11 @@ Project Header
     font-size: 1.1em;
 }
 .info-header i {
-    color: #598d9d;
+    color: #0feaea;
     line-height: 1.2;
 }
 .info-header .title {
-    color: #005fad;
+    color: #eee;
     margin-left: 9px;
 }
 .info-header i,
