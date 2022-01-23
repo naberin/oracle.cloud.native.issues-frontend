@@ -1,10 +1,9 @@
 
 import { render, screen } from "@testing-library/react";
-
-import Root from "../pages/Root/Root";
+import BasePage from "../pages/BasePage";
 
 it('Root renders', () => {
-    render(<Root />)
-    const rootDivFound = screen.getAllByTestId('app-root');
+    render(<BasePage />)
+    const rootDivFound = screen.getAllByTestId('base');
     expect(rootDivFound).toBeTruthy();
 });

@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Root from './pages/Root/Root';
+
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
+import BasePage from "./pages/BasePage";
 
 ReactDOM.render(
   <BrowserRouter>
-      <Root />
+      <BasePage />
   </BrowserRouter>,
   document.getElementById('root')
 );
