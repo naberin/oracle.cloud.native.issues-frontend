@@ -1,6 +1,38 @@
 * {
     font-family: Roboto, sans-serif;
 }
+.link:hover {
+    text-decoration: underline;
+}
+
+#main {
+    background-color: #eee;
+}
+
+/*************************************
+buttons
+**************************************/
+button.app-button {
+    border: none;
+    border-radius: 9px;
+    padding: 0;
+}
+button.app-button .button-bg {
+    background-color: rgba(29, 29, 29, .5);
+    height: 100%;
+    width: 100%;
+    padding: 14px;
+    border-radius: inherit;
+    transition: background-color .5s;
+}
+button.app-button .button-bg:hover {
+    background-color: rgba(29, 29, 29, .2);
+}
+
+button.app-button.creation {
+    background: linear-gradient(to bottom right, #08a451, #005fad);
+    color: #eee;
+}
 
 /*************************************
 Header
@@ -24,4 +56,48 @@ header.app-header .app-navigation .nav:hover {
 
 header.app-header .app-navigation .nav:not(:last-child) {
     margin-right: 9px;
+}
+/*************************************
+Project Header
+**************************************/
+.info-header {
+    padding: 14px 9px;
+}
+
+.info-header i,
+.info-header .title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.info-header i {
+    color: #598d9d;
+    line-height: 1.2;
+}
+.info-header .title {
+    color: #005fad;
+    margin-left: 9px;
+}
+.info-header i,
+.info-header .title,
+.info-header .link {
+    padding: 9px 0;
+}
+
+.info-header .field {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.info-header .field i {
+    padding: 9px 4px;
+}
+.info-header .field input {
+    border: none;
+    background-color: inherit;
+    height: 100%;
+    padding: 9px;
+
+}
+
+.info-header .field + .app-button {
+    margin-left: 9px;
 }
