@@ -1,7 +1,7 @@
 
 const Page = function () {
     return (
-        <main id="base" data-testid="base">
+        <main id="main" data-testid="main">
 
         </main>
     )

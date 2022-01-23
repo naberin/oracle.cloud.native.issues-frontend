@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import BasePage from "./pages/BasePage";
+import MainPage from "./pages/MainPage";
 
 ReactDOM.render(
   <BrowserRouter>
-      <BasePage />
+      <MainPage />
   </BrowserRouter>,
   document.getElementById('root')
 );
