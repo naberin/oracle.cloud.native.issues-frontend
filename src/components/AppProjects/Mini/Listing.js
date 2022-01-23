@@ -9,7 +9,7 @@ const component = function(props) {
 
     return (
         <div className="app-listing projects flex flex-col">
-            <div className={"title"}>Projects</div>
+            <div className={"title"}>Recent Projects</div>
             <div className="listing flex flex-col">
                 {listing}
             </div>
