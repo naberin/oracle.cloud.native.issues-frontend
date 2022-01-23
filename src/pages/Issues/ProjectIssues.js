@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import ProjectHeader from "../../components/ProjectHeader";
+import IssueFilter from "../../components/filters/Issues";
 
 
 class Page extends React.Component {
@@ -19,6 +20,7 @@ class Page extends React.Component {
                     pid={this.state.pid}
                     projectTitle={this.state.projectTitle}
                 />
+                <IssueFilter />
 
             </section>
         )

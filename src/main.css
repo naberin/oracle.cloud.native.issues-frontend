@@ -82,3 +82,12 @@ Project Header
 .info-header .link {
     padding: 9px 0;
 }
+
+/*************************************
+filter bar
+**************************************/
+.filter-bar {
+    padding: 14px 4px;
+    background-color: #eee;
+}
+}
