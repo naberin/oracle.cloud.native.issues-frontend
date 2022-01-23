@@ -1,4 +1,5 @@
 import "./Header.css";
+import {Link} from "react-router-dom";
 
 const component = function(props) {
     let title = props.title;
@@ -7,7 +8,7 @@ const component = function(props) {
         <header className="app-header">
             <div className="flex flex-row flex-justify-between container">
                 <div className="app-details">
-                    <div className="title">{title}</div>
+                    <div className="title"><Link to="/">{title}</Link></div>
                 </div>
 
                 <div className="flex flex-row flex-justify-end">
